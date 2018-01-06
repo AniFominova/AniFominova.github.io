@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Какой-то тайтл</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/font/fonts/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<meta name="author" content="Ani Fominova">
+</head>
+<body>
+		<div class="header">
+			
+			<div class="logo">
+				<a href="index.html">
+					<h1>Ani Fominova</h1>
+				</a>
+			</div>
+				<div class="top_nav">
+					<div class="hide-nav">
+						<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+
+					</div>
+					<ul class="nav">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="portfolio.html">Портфолио</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li><a class="active" href="layout_element.html">Элементы верстки</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+					
+				</div>
+
+		</div>
+				
+
+		<div class="content">
+				<div class="top_nav_mobile">
+					<ul class="nav_mobile">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="portfolio.html">Портфолио</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li><a class="active" href="layout_element.html">Элементы верстки</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</div>
+			
+			<div id="layout-element">
+				<h1>Элементы верстки</h1>
+				<div class="layout-element">
+					<div id="aside1" class="sidebar-stiky">
+							<h3>Категории</h3>
+							<ul class="nav-sidebar" id="top-menu">
+								<li><a class="active" href="#accordions">Аккордеоны</a></li>
+								<li><a href="#tabs">Вкладки</a></li>
+								<li><a href="#modals">Модальные окна</a></li>
+							</ul>
+							
+					</div>
+					<div id="article" class="content">
+
+						<!-- Аккордеон  -->
+
+						<div class="accordeons font" id="accordions">
+							<h2>Аккордеоны</h2>
+							<div class="samples">
+								<div class="sample">
+									<h3>Образец 1</h3>
+									<!-- Accordion -->
+					               <dl class="accordion">
+					                 <dt>
+					                   Для чего нужно HTML?
+					                 </dt>
+					                 <dd>
+					                   Какой-то текст про HTML, и так далее и тому подобное.
+					                 </dd>
+					                 <dt>
+					                   Что такое BOOTSTRAP?
+					                 </dt>
+					                 <dd>
+					                   Пару строчек про BOOTSTRAP и зачем он нужен.
+					                 </dd>
+					                 <dt>
+					                   Для чего нужно CSS?
+					                 </dt>
+					                 <dd>
+					                   Какой-то текст про CSS, и так далее и тому подобное.
+					                 </dd>
+					               </dl>
+					               <!-- End Accordion -->
+								</div>
+								<div class="sample">
+									<h3>Образец 2</h3>
+									<section class="ac-container">
+									    <div class="rows">
+									        <input id="ac-1" name="accordion-1" type="radio" checked />
+									        <label for="ac-1">Для чего нужно HTML?</label>
+									        <h2>
+									            Какой-то текст про HTML, и так далее и тому подобное.
+									        </h2>
+									    </div>
+									    <div class="rows">
+									        <input id="ac-2" name="accordion-1" type="radio" />
+									        <label for="ac-2">Что такое BOOTSTRAP?</label>
+									        <h2>
+									            Пару строчек про BOOTSTRAP и зачем он нужен.
+									        </h2>
+									    </div>
+									    <div class="rows">
+									        <input id="ac-3" name="accordion-1" type="radio" />
+									        <label for="ac-3">Для чего нужно CSS?</label>
+									        <h2>
+									            Какой-то текст про CSS, и так далее и тому подобное.
+									        </h2>
+									    </div>
+									    
+									</section>
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- Аккордеон  -->
+
+						<!-- Вкладки  -->
+
+						<div class="tabs font">
+							<h2>Вкладки</h2>
+							<div class="samples-tabs samples">
+								<div class="sample-tabs sample">
+									<h3>Горизонтальная вкладка</h3>
+									<div class="tabs custom-tabs" id="tabs">
+										<ul class="nav nav-tabs">
+											<li class="tab whiteborder">
+												Первая
+											</li>
+											<li class="tab">
+												Вторая
+											</li>
+										</ul>
+										<div class="tab-content">
+											<div class="tabContent tab-pane">
+												<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+											</div>
+											<div class="tabContent tab-pane">
+												<p>Nesciunt tofu stumptown aliqua, sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="sample-tabs sample">
+									<h3>Вертикальная вкладка</h3>
+									<div class="tabs tabs-vertical">
+										<input type="radio" name="odin" checked="checked" id="vkl1"/><label for="vkl1" class="tab1 active">Первая</label>
+										<input type="radio" name="odin" id="vkl2"/><label for="vkl2" class="tab1">Вторая</label>
+										<input type="radio" name="odin" id="vkl3"/><label for="vkl3" class="tab1">Третья</label>
+										
+										<div class="tab-pane">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</div>
+										<div class="tab-pane">Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+										<div class="tab-pane">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- Вкладки  -->
+
+						<!-- Кнопки  
+
+						<div class="buttons font" id="buttons">
+							<h2>Кнопки</h2>
+							<div class="samples">
+								<div class="sample">
+								<h3>Образец 1</h3>
+							</div>
+							<div class="sample">
+								<h3>Образец 2</h3>
+							</div>
+							</div>
+							
+						</div>
+
+						 Кнопки  -->
+
+						<!-- Карусель  
+
+						<div class="carousels font" id="carousels">
+							<h2>Карусель</h2>
+							<div class="samples">
+								<div class="sample">
+								<h3>Образец 1</h3>
+							</div>
+							<div class="sample">
+								<h3>Образец 2</h3>
+							</div>
+							</div>
+							
+						</div>
+
+						 Карусель  -->
+
+						<!-- Модальные окна  -->
+
+						<div class="modals font" id="modals">
+							<h2>Модальные окна</h2>
+							<div class="samples">
+								<div class="sample">
+									<h3>Образец 1</h3>
+									<a href="#openModal"><img alt="#"	src="img/Joker.jpg"></a>
+									<div id="openModal" class="modalDialog">
+										<div>
+									        <a href="#close" title="Закрыть" class="close">X</a>
+									        <img alt="#" src="img/Joker2.jpg">
+									        <p>Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
+									        <p>Его можно использовать в широком диапазоне, начиная от вывода сообщений и заканчивая формой регистрации.</p>
+									    </div>
+									</div>
+
+								</div>
+
+								
+
+								<div class="sample">
+									<h3>Образец 2</h3>
+									<a href="#openModal2" class="modalOpen">Узнать подробнее</a>
+									<div id="openModal2" class="modalDialog">
+										<div class="text">
+									        <a href="#close" title="Закрыть" class="close2">Закрыть</a>
+									        
+									        <p>Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
+									        <p>Его можно использовать в широком диапазоне, начиная от вывода сообщений и заканчивая формой регистрации.</p>
+									    </div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- Модальные окна  -->
+
+						<!-- Изображения  -->
+
+					<!--	<div class="lightbox font" id="lightbox">
+							<h2>Изображения</h2>
+							<div class="samples">
+								<div class="sample">
+								<h3>Образец 1</h3>
+							</div>
+							<div class="sample">
+								<h3>Образец 2</h3>
+							</div>
+							</div>
+							
+						</div> -->
+
+						<!-- Изображения  -->
+						
+						<!-- Пагинация  -->
+
+					<!--	<div class="pagination font" id="pagination">
+							<h2>Пагинация</h2>
+							<div class="samples">
+								<div class="sample">
+								<h3>Образец 1</h3>
+							</div>
+							<div class="sample">
+								<h3>Образец 2</h3>
+							</div>
+							</div>
+							
+						</div> -->
+
+						<!-- Пагинация  -->
+
+						<!-- Индикаторы выполнения  -->
+
+					<!--	<div class="progress-bars font" id="progress-bars">
+							<h2>Индикаторы выполнения</h2>
+							<div class="samples">
+								<div class="sample">
+								<h3>Образец 1</h3>
+							</div>
+							<div class="sample">
+								<h3>Образец 2</h3>
+							</div>
+							</div>
+							
+						</div> -->
+
+						<!-- Индикаторы выполнения  -->
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		
+		<footer>
+			<div class="footer">
+				<div class="addres">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<h6>Адрес</h6>
+					<p>г. Гродно, ул.Тавлая, д.52А, кв.29.</p>
+				</div>
+				<div class="email">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<h6>Почта</h6>
+					<a href="#">Ani1609@yandex.ru</a>
+				</div>
+				<div class="phone">
+					<i class="fa fa-mobile" aria-hidden="true"></i>
+					<h6>Телефон</h6>
+					<p>+375 29 288 88 88</p>
+				</div>
+			</div>
+		</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/headhesive.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
