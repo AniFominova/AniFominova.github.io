@@ -2299,6 +2299,11 @@ footer .footer .phone p {
 }
 
 @media screen and (max-width: 780px) {
+   .popup {
+    height: 80%;
+    top: 10%;
+    overflow-y: scroll;
+  }
   .content .services {
     justify-content: center;
   }
